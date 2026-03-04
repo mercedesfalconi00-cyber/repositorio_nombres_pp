@@ -28,8 +28,12 @@ public class ExamenParciall {
         d = sb * 0.13;
         sn = sb - d;
 
-        System.out.println("Sueldo bruto: " + sb);
-        System.out.println("Descuento: " + d);
-        System.out.println("Sueldo neto: " + sn);
+    System.out.println("\n===== RESULTADOS =====");
+    System.out.println("Empleado: " + empleado);
+    System.out.println("----------------------");
+    System.out.println("Sueldo bruto: " + sb);
+    System.out.println("Descuento (13%): " + d);
+    System.out.println("Sueldo neto: " + sn);
+
     }
 }
